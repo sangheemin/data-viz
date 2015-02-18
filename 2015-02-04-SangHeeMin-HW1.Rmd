@@ -1,0 +1,270 @@
+---
+title: "dataviz"
+author: "Sang-Hee Min"
+date: "February 4, 2015"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+getwd();
+setwd("~/Documents/DataViz");
+
+##Problem 1: Go to this link to retrieve general metadata for Local Government Areas (LGAs) of Nigeria. LGAs are akin to counties in the U.S.
+
+LGAS <- read.csv("/Users/sanghee0531/Documents/DataViz/HW1/lgas.csv");
+
+head(LGAS);
+
+## lga_id       unique_lga pop_2006       lga     state          zone
+##1      1     borno_abadam   100180    Abadam     Borno     Northeast
+##2      2        fct_abaji    58444     Abaji       FCT North-Central
+##3      3   akwa_ibom_abak   139090      Abak Akwa Ibom   South-South
+##4      4 ebonyi_abakaliki   151723 Abakaliki    Ebonyi     Southeast
+##5      5   abia_aba_north   107488 Aba North      Abia     Southeast
+##6      6   abia_aba_south   423852 Aba South      Abia     Southeast
+##  area_sq_km surveying_effort pop_density_2006 longitude  latitude
+##1 3967.05423           Others         25.25299 13.325674 13.428293
+##2  992.36124              113         58.89388  6.853414  8.877566
+##3  189.98456           Others        732.11211  7.772279  5.019887
+##4  584.05517           Others        259.77512  8.219882  6.258681
+##5   22.77506           Others       4719.54826  7.371644  5.106900
+##6   49.16654           Others       8620.74053  7.350650  5.081346
+##  senatorial_district                       TA_names
+##1               North               Mukhtar Abubakar
+##2                                      Ipah Iloye A.
+##3         Ikot Ekpene                    Jesse Akpan
+##4        Ebonyi North             Obasi Arisi Ikenna
+##5          Abia South Anichukwueze Anthony Nkemdirim
+##6          Abia South          Ujah Chukwudu Francis
+
+str(LGAS);
+
+##'data.frame':  774 obs. of  13 variables:
+## $ lga_id             : int  1 2 3 4 5 6 7 8 9 10 ...
+## $ unique_lga         : Factor w/ 773 levels "abia_aba_north",..: 142 275 39 211 1 2 563 564 169 292 ...
+## $ pop_2006           : int  100180 58444 139090 151723 107488 423852 201329 250278 144802 195652 ...
+## $ lga                : Factor w/ 768 levels "Aba North","Aba South",..: 3 4 5 6 1 2 7 8 9 10 ...
+## $ state              : Factor w/ 37 levels "Abia","Adamawa",..: 8 15 3 11 1 1 28 28 9 17 ...
+## $ zone               : Factor w/ 6 levels "North-Central",..: 2 1 4 5 5 5 6 6 4 5 ...
+## $ area_sq_km         : num  3967.1 992.4 190 584.1 22.8 ...
+## $ surveying_effort   : Factor w/ 4 levels "113","148","Others",..: 3 1 3 3 3 3 3 3 3 3 ...
+## $ pop_density_2006   : num  25.3 58.9 732.1 259.8 4719.5 ...
+## $ longitude          : num  13.33 6.85 7.77 8.22 7.37 ...
+## $ latitude           : num  13.43 8.88 5.02 6.26 5.11 ...
+## $ senatorial_district: Factor w/ 67 levels "","Abia Central",..: 40 1 33 21 4 4 42 42 12 53 ...
+## $ TA_names           : Factor w/ 121 levels "Abdul Samad Isah Haruna",..: 75 57 62 83 19 114 108 108 94 80 ...
+ 
+## Problem 2: Next, download the full NMIS dataset, and grab the [large] .csv file called “Health_Mopup_and_Baseline_NMIS_Facility.csv”. This contains every health facility in Nigeria.
+
+ NMIS <- read.csv("/Users/sanghee0531/Documents/DataViz/HW1/Health_Mopup_and_Baseline_NMIS_Facility.csv")
+
+head(NMIS)
+##                        facility_name
+##1                 HEALTH POST KAGBANG
+##2                       Alhari Clinic
+##3 Primary health centre umukuru okehi
+##4                    PHC EHOM CENTRAL
+##5                         Health post
+##6                 Tula Medical Centre
+##                        facility_type_display
+##1                                 Health Post
+##2                 Primary Health Centre (PHC)
+##3 Basic Health Centre / Primary Health Clinic
+##4                 Primary Health Centre (PHC)
+##5                                 Health Post
+##6                                 Health Post
+##  maternal_health_delivery_services emergency_transport
+##1                              TRUE                TRUE
+##2                              TRUE                TRUE
+##3                              TRUE                TRUE
+##4                              TRUE               FALSE
+##5                              TRUE               FALSE
+##6                              TRUE                TRUE
+##  skilled_birth_attendant num_chews_fulltime phcn_electricity
+##1                   FALSE                  1             TRUE
+##2                    TRUE                  4             TRUE
+##3                    TRUE                  2             TRUE
+##4                   FALSE                  2            FALSE
+##5                   FALSE                  0            FALSE
+##6                    TRUE                  0            FALSE
+##  c_section_yn child_health_measles_immun_calc num_nurses_fulltime
+##1        FALSE                            TRUE                   0
+##2        FALSE                            TRUE                   1
+##3         TRUE                            TRUE                   4
+##4        FALSE                            TRUE                   0
+##5        FALSE                            TRUE                   0
+##6         TRUE                           FALSE                   2
+##  num_nursemidwives_fulltime num_doctors_fulltime date_of_survey
+##1                          0                    0     2014-02-25
+##2                          1                    1     2014-04-23
+##3                         11                    2     2014-03-06
+##4                          0                    0     2014-02-27
+##5                          0                    0     2014-02-27
+##6                          0                    1     2014-03-01
+##  facility_id    community       ward management
+##1       TSTEW      KAGBANG       UKPE     public
+##2       HJHCB       Masaka       Karu    private
+##3       HKBNK      Umukuru      Okehi     public
+##4       HVPMM Ehom central       Ehom     public
+##5       HYGLB         Ufut Umon north     public
+##6       HXBNK     Aleibiri          3    private
+##  improved_water_supply improved_sanitation vaccines_fridge_freezer
+##1                 FALSE               FALSE                   FALSE
+##2                 FALSE                TRUE                    TRUE
+##3                  TRUE                TRUE                    TRUE
+##4                  TRUE               FALSE                   FALSE
+##5                 FALSE               FALSE                   FALSE
+##6                  TRUE                TRUE                   FALSE
+##  antenatal_care_yn family_planning_yn malaria_treatment_artemisinin
+##1              TRUE              FALSE                          TRUE
+##2              TRUE              FALSE                          TRUE
+##3              TRUE               TRUE                          TRUE
+##4              TRUE               TRUE                          TRUE
+##5              TRUE               TRUE                          TRUE
+##6              TRUE               TRUE                          TRUE
+##  sector  formhub_photo_id
+##1 health 1393335750723.jpg
+##2 health 1393316873034.jpg
+##3 health 1393594715772.jpg
+##4 health 1393330657159.jpg
+##5 health 1393342042946.jpg
+##6 health 1393405837395.jpg
+##                                          gps
+##1 6.54340807 9.08470312 218.8000030517578 5.0
+##2 9.00720861 7.67780798 432.8999938964844 5.0
+##3                        5.1297 7.1592 73.3 5
+##4                       5.4633 8.1464 117.8 5
+##5                         5.504 8.0251 52.4 5
+##6                        5.0762 5.8715 39.6 5
+##                             survey_id        unique_lga latitude
+##1 451a0efb-5fa6-4bad-93cd-7cf19eb50833 cross_river_obudu 6.543408
+##2 5ddb68d6-02d2-44de-9df3-ebc840a1da42     nasarawa_karu 9.007209
+##3 2173b656-14eb-400d-9eef-76830379b065      rivers_etche 5.129700
+##4 963abf9d-5a72-4b35-811e-9c1830adc88b cross_river_biase 5.463300
+##5 9d09aaac-578c-4a48-a054-dee678a05422 cross_river_biase 5.504000
+##6 274e2e1b-c47c-4da5-97ac-8aefd6b18813  bayelsa_ekeremor 5.076200
+##  longitude
+##1  9.084703
+##2  7.677808
+##3  7.159200
+##4  8.146400
+##5  8.025100
+##6  5.871500
+
+str(NMIS);
+##'data.frame':  34139 obs. of  30 variables:
+## $ facility_name                    : Factor w/ 28550 levels "\nModel pry healthcare",..: 10496 1224 23082 20322 10286 26394 10563 27789 14315 16562 ...
+## $ facility_type_display            : Factor w/ 18 levels "Basic Health Centre / Primary Health Clinic",..: 9 14 1 14 9 9 9 16 16 9 ...
+## $ maternal_health_delivery_services: logi  TRUE TRUE TRUE TRUE TRUE TRUE ...
+## $ emergency_transport              : logi  TRUE TRUE TRUE FALSE FALSE TRUE ...
+## $ skilled_birth_attendant          : logi  FALSE TRUE TRUE FALSE FALSE TRUE ...
+## $ num_chews_fulltime               : int  1 4 2 2 0 0 0 1 4 1 ...
+## $ phcn_electricity                 : logi  TRUE TRUE TRUE FALSE FALSE FALSE ...
+## $ c_section_yn                     : logi  FALSE FALSE TRUE FALSE FALSE TRUE ...
+## $ child_health_measles_immun_calc  : logi  TRUE TRUE TRUE TRUE TRUE FALSE ...
+## $ num_nurses_fulltime              : int  0 1 4 0 0 2 1 6 NA 0 ...
+## $ num_nursemidwives_fulltime       : int  0 1 11 0 0 0 0 12 4 0 ...
+## $ num_doctors_fulltime             : int  0 1 2 0 0 1 0 5 15 0 ...
+## $ date_of_survey                   : Factor w/ 323 levels "2009-07-23","2010-10-20",..: 240 273 249 242 242 244 240 241 241 262 ...
+## $ facility_id                      : Factor w/ 34122 levels "AAABW","AAADE",..: 28724 10619 10978 16657 17973 17419 13808 10914 12589 15203 ...
+## $ community                        : Factor w/ 25739 levels "\n   KATSINAWA    ",..: 12427 15598 23814 6427 23151 1777 18734 24787 24787 11342 ...
+## $ ward                             : Factor w/ 13988 levels "\n2","   2","  Mjakin",..: 12580 6919 10148 3471 12629 113 1020 5411 5376 7821 ...
+## $ management                       : Factor w/ 4 levels "dk","faith_based",..: 4 3 4 4 4 3 4 3 3 3 ...
+## $ improved_water_supply            : logi  FALSE FALSE TRUE TRUE FALSE TRUE ...
+## $ improved_sanitation              : logi  FALSE TRUE TRUE FALSE FALSE TRUE ...
+## $ vaccines_fridge_freezer          : logi  FALSE TRUE TRUE FALSE FALSE FALSE ...
+## $ antenatal_care_yn                : logi  TRUE TRUE TRUE TRUE TRUE TRUE ...
+## $ family_planning_yn               : logi  FALSE FALSE TRUE TRUE TRUE TRUE ...
+## $ malaria_treatment_artemisinin    : logi  TRUE TRUE TRUE TRUE TRUE TRUE ...
+## $ sector                           : Factor w/ 1 level "health": 1 1 1 1 1 1 1 1 1 1 ...
+## $ formhub_photo_id                 : Factor w/ 33850 levels "1230768326188.jpg",..: 22087 21911 22913 22034 22160 22306 21991 22157 22007 28554 ...
+## $ gps                              : Factor w/ 33850 levels "10.00030365 11.89968052 231.0 5.0",..: 17990 29996 11533 12320 12561 11306 16946 12870 12718 816 ...
+## $ survey_id                        : Factor w/ 34122 levels "00006404-aeb9-4010-96b8-db287ee3fad1",..: 9183 12524 4559 20206 21085 5311 14617 29195 33340 25758 ...
+## $ unique_lga                       : Factor w/ 772 levels "abia_aba_north",..: 180 527 690 172 172 112 180 208 208 361 ...
+## $ latitude                         : num  6.54 9.01 5.13 5.46 5.5 ...
+## $ longitude                        : num  9.08 7.68 7.16 8.15 8.03 ...
+
+##Problem 3: Produce a new data.frame with the following properties:
+
+##From the NMIS Health Facilities Inventory, select all facilities located in the Southern zones of Nigeria.
+SouthZones <- subset(LGAS, zone%in% c("South-South", "Southeast", "Southwest"))
+dim(SouthZones);
+SouthZoneFacilities <- subset(NMIS, unique_lga%in% SouthZones$unique_lga);
+
+##Incorporate LGA metadata into this new dataframe.
+Merged <- merge(SouthZones, SouthZoneFacilities, by="unique_lga");
+MergedSouthOnly <- subset(Merged,zone=="South-South"|zone=="Southeast"|zone=="Southwest")
+dim(SouthZoneFacilities)-dim(Merged);
+
+##Problem 4: Calculate the total number of full time nurses and doctors for all health facilities, by state. Compute per capita and per area values, as well.
+
+##Sort the resulting dataset by state population, in descending order.
+
+library(plyr);
+Merged$num_nurses_fulltime[is.na(Merged$num_nurses_fulltime)]=0
+Merged$num_nursemidwives_fulltime[is.na(Merged$num_nursemidwives_fulltime)]=0
+Merged$num_doctors_fulltime[is.na(Merged$num_doctors_fulltime)]=0
+Merged$fulltotal <- Merged$num_nurses_fulltime + Merged$num_nursemidwives_fulltime + Merged$num_doctors_fulltime 
+which(colnames(Merged)=="fulltotal");
+##[1] 43
+
+State_Populations <- aggregate(Merged[43],list(Merged$state),sum)
+which(colnames(LGAS)=="pop_2006");
+##[1] 3
+
+State_Area <- aggregate(LGAS[3], list(LGAS$state), sum)
+which(colnames(LGAS)=="area_sq_km");
+##[1] 7
+
+Total_Pop_Area <- aggregate(LGAS[7], list(LGAS$state), sum);
+New1 <- merge(State_Populations, State_Area, by= "Group.1" )
+New2 <- merge(New1, Total_Pop_Area, by= "Group.1" )
+names(New2)[1] <- "state"
+New3 <- transform(New2, new = fulltotal / pop_2006)
+New2$per_capita <- New2$fulltotal/New2$pop_2006
+New2$per_area_unit <- New2$fulltotal/New2$area_sq_km
+FinalSorted <- arrange(New2, desc(pop_2006));
+
+##Show the results!
+print(FinalSorted);
+##         state fulltotal pop_2006 area_sq_km   per_capita
+##1        Lagos      9028  9013534   3479.717 0.0010016049
+##2          Oyo      4417  5591589  27900.302 0.0007899365
+##3       Rivers      2908  5185400  10363.981 0.0005608053
+##4      Anambra      3807  4182032   4762.182 0.0009103230
+##5        Delta      3538  4098391  17105.597 0.0008632656
+##6          Imo      4904  3934899   5136.055 0.0012462836
+##7    Akwa Ibom      2146  3920208   6720.579 0.0005474199
+##8         Ogun      4947  3728098  16873.168 0.0013269501
+##9         Ondo      1673  3441024  15031.599 0.0004861925
+##10        Osun      2391  3423535   8595.119 0.0006984009
+##11       Enugu      2621  3257298   7561.111 0.0008046547
+##12         Edo      3336  3218332  19596.676 0.0010365618
+##13 Cross River      1725  2856581  20936.867 0.0006038688
+##14        Abia      3562  2833999   4857.434 0.0012568812
+##15       Ekiti      2123  2384212   5801.502 0.0008904410
+##16      Ebonyi      1122  2173501   6342.013 0.0005162178
+##17     Bayelsa       709  1703358   9368.015 0.0004162366
+##   per_area_unit
+##1     2.59446396
+##2     0.15831370
+##3     0.28058715
+##4     0.79942349
+##5     0.20683289
+##6     0.95481836
+##7     0.31931772
+##8     0.29318739
+##9     0.11129887
+##10    0.27818113
+##11    0.34664219
+##12    0.17023295
+##13    0.08239055
+##14    0.73330893
+##15    0.36593972
+##16    0.17691543
+##17    0.07568305
+
