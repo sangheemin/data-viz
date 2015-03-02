@@ -1,0 +1,695 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>data-viz/germs.json at master · Ecohen4/data-viz</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="Ecohen4/data-viz" name="twitter:title" /><meta content="data-viz - Teaching data visualization at Columbia University." name="twitter:description" /><meta content="https://avatars0.githubusercontent.com/u/7387573?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars0.githubusercontent.com/u/7387573?v=3&amp;s=400" property="og:image" /><meta content="Ecohen4/data-viz" property="og:title" /><meta content="https://github.com/Ecohen4/data-viz" property="og:url" /><meta content="data-viz - Teaching data visualization at Columbia University." property="og:description" />
+      <meta name="browser-stats-url" content="/_stats">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
+    <link rel="xhr-socket" href="/_sockets">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="C6B35E0B:2421:19754D4:54F36D72" name="octolytics-dimension-request_id" /><meta content="10700271" name="octolytics-actor-id" /><meta content="sangheemin" name="octolytics-actor-login" /><meta content="748114a1b3299d9616425a5dcdb234932481fe25ade71b3265f7be13a3225755" name="octolytics-actor-hash" />
+    
+    <meta content="Rails, view, blob#show" name="analytics-event" />
+
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="5TYtvXTkw0THmbkeOYPWmLNlYHfqxs6ufcm7pcgTFDJi/Y3O2sjqUt0tXrpyiSg8j7XeuRnm3+UHyhB7jBh7tQ==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-84e4144e3c0347e1187b021a88b6bcbad5186ac898c63e26b13332c7c53504a6.css" media="all" rel="stylesheet" />
+    <link href="https://assets-cdn.github.com/assets/github2-8f9492ba1b29d6e5b41cd7e06e0e88a5b1c8ae107269e75f5ca3bbba8afc5a3f.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="5639dbee804d4503f9a9dbc99fac39bb">
+
+      
+  <meta name="description" content="data-viz - Teaching data visualization at Columbia University.">
+  <meta name="go-import" content="github.com/Ecohen4/data-viz git https://github.com/Ecohen4/data-viz.git">
+
+  <meta content="7387573" name="octolytics-dimension-user_id" /><meta content="Ecohen4" name="octolytics-dimension-user_login" /><meta content="29430012" name="octolytics-dimension-repository_id" /><meta content="Ecohen4/data-viz" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="29430012" name="octolytics-dimension-repository_network_root_id" /><meta content="Ecohen4/data-viz" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/Ecohen4/data-viz/commits/master.atom" rel="alternate" title="Recent Commits to data-viz:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_in  env-production macintosh vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+
+      <div class="site-search repo-scope js-site-search" role="search">
+          <form accept-charset="UTF-8" action="/Ecohen4/data-viz/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/Ecohen4/data-viz/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input type="text"
+    class="js-site-search-field is-clearable"
+    data-hotkey="s"
+    name="q"
+    placeholder="Search"
+    data-global-scope-placeholder="Search GitHub"
+    data-repo-scope-placeholder="Search"
+    tabindex="1"
+    autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+      </div>
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item explore">
+          <a class="header-nav-link" href="/explore" data-ga-click="Header, go to explore, text:explore">Explore</a>
+        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="Header, go to blog, text:blog">Blog</a>
+          </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
+        </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name" href="/sangheemin" data-ga-click="Header, go to profile, text:username">
+      <img alt="sangheemin" class="avatar" data-user="10700271" height="20" src="https://avatars1.githubusercontent.com/u/10700271?v=3&amp;s=40" width="20" />
+      <span class="css-truncate">
+        <span class="css-truncate-target">sangheemin</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link js-menu-target tooltipped tooltipped-s" href="#" aria-label="Create new..." data-ga-click="Header, create new, icon:add">
+      <span class="octicon octicon-plus"></span>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new" data-ga-click="Header, create new repository, icon:repo"><span class="octicon octicon-repo"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new" data-ga-click="Header, create new organization, icon:organization"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+    <li class="dropdown-divider"></li>
+    <li class="dropdown-header">
+      <span title="Ecohen4/data-viz">This repository</span>
+    </li>
+      <li>
+        <a href="/Ecohen4/data-viz/issues/new" data-ga-click="Header, create new issue, icon:issue"><span class="octicon octicon-issue-opened"></span> New issue</a>
+      </li>
+</ul>
+
+    </div>
+  </li>
+
+  <li class="header-nav-item">
+        <a href="/notifications" aria-label="You have no unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+        <span class="mail-status all-read"></span>
+        <span class="octicon octicon-inbox"></span>
+</a>
+  </li>
+
+  <li class="header-nav-item">
+    <a class="header-nav-link tooltipped tooltipped-s" href="/settings/profile" id="account_settings" aria-label="Settings" data-ga-click="Header, go to settings, icon:settings">
+      <span class="octicon octicon-gear"></span>
+    </a>
+  </li>
+
+  <li class="header-nav-item">
+    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+nGPK8Gqzaea2MBl86dr0l+V7fVhKfloeUNpO/Jcfk4OpD2ssddYSXhvZI34Lj1UCJQtepiQBW3nVkwy8eRRTQ==" /></div>
+      <button class="header-nav-link sign-out-button tooltipped tooltipped-s" aria-label="Sign out" data-ga-click="Header, sign out, icon:logout">
+        <span class="octicon octicon-sign-out"></span>
+      </button>
+</form>  </li>
+
+</ul>
+
+
+    
+  </div>
+</div>
+
+      
+
+        
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UvlSOH6Y8AbEigUPrz/CPm7CKFHClxQtGAE/PIA5zP9wTM8Xfo6GeX9ECK5KI/JEA2kuTC3/J4xu10H9wtAkZA==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="29430012" />
+
+      <div class="select-menu js-menu-container js-select-menu">
+        <a class="social-count js-social-count" href="/Ecohen4/data-viz/watchers">
+          1
+        </a>
+        <a href="/Ecohen4/data-viz/subscription"
+          class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0" aria-haspopup="true">
+          <span class="js-select-button">
+            <span class="octicon octicon-eye"></span>
+            Watch
+          </span>
+        </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+            <div class="select-menu-header">
+              <span class="select-menu-title">Notifications</span>
+              <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+            </div>
+
+            <div class="select-menu-list js-navigation-container" role="menu">
+
+              <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                  <span class="select-menu-item-heading">Not watching</span>
+                  <span class="description">Be notified when participating or @mentioned.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                  <span class="select-menu-item-heading">Watching</span>
+                  <span class="description">Be notified of all conversations.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Unwatch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_ignore" name="do" type="radio" value="ignore" />
+                  <span class="select-menu-item-heading">Ignoring</span>
+                  <span class="description">Never be notified.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-mute"></span>
+                    Stop ignoring
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+</form>
+
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+
+    <form accept-charset="UTF-8" action="/Ecohen4/data-viz/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vl7As+jGWEMJRfglMQpr3nMemLGhTpeYtIDa/MQUVLmIGatDcPHKxKk2h6LPo32D+h24QwCHzmFTdSi1wsQlrw==" /></div>
+      <button
+        class="minibutton with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar Ecohen4/data-viz">
+        <span class="octicon octicon-star"></span>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/Ecohen4/data-viz/stargazers">
+          0
+        </a>
+</form>
+    <form accept-charset="UTF-8" action="/Ecohen4/data-viz/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="464T4CHB2Cg6TY8fMhP2JUxJrfTXs9a1wb1ZEUAxkNEwV3BxyduRGlu/t1mRUNXtAijxCuxKgumVTHSWHTa5Eg==" /></div>
+      <button
+        class="minibutton with-count js-toggler-target"
+        aria-label="Star this repository" title="Star Ecohen4/data-viz">
+        <span class="octicon octicon-star"></span>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/Ecohen4/data-viz/stargazers">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+        <li>
+          <a href="/Ecohen4/data-viz/fork" class="minibutton with-count js-toggler-target tooltipped-n" title="Fork your own copy of Ecohen4/data-viz to your account" aria-label="Fork your own copy of Ecohen4/data-viz to your account" rel="nofollow" data-method="post">
+            <span class="octicon octicon-repo-forked"></span>
+            Fork
+          </a>
+          <a href="/Ecohen4/data-viz/network" class="social-count">38</a>
+        </li>
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/Ecohen4" class="url fn" itemprop="url" rel="author"><span itemprop="title">Ecohen4</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/Ecohen4/data-viz" class="js-current-repository" data-pjax="#js-repo-pjax-container">data-viz</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/Ecohen4/data-viz/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/Ecohen4/data-viz" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /Ecohen4/data-viz">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/Ecohen4/data-viz/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /Ecohen4/data-viz/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+      <a href="/Ecohen4/data-viz/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /Ecohen4/data-viz/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+
+      <li class="tooltipped tooltipped-w" aria-label="Wiki">
+        <a href="/Ecohen4/data-viz/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /Ecohen4/data-viz/wiki">
+          <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/Ecohen4/data-viz/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /Ecohen4/data-viz/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/Ecohen4/data-viz/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /Ecohen4/data-viz/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/Ecohen4/data-viz.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">SSH</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="git@github.com:Ecohen4/data-viz.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/Ecohen4/data-viz" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<p class="clone-options">You can clone with
+  <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>, <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>, or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+  <a href="http://mac.github.com" data-url="github-mac://openRepo/https://github.com/Ecohen4/data-viz" class="minibutton sidebar-button js-conduit-rewrite-url" title="Save Ecohen4/data-viz to your computer and use it in GitHub Desktop." aria-label="Save Ecohen4/data-viz to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/Ecohen4/data-viz/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download the contents of Ecohen4/data-viz as a zip file"
+                   title="Download the contents of Ecohen4/data-viz as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<a href="/Ecohen4/data-viz/blob/5c611046f189897087cad35c271501be88ae72d4/ebola/germs.json" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:d990a7b29ac01b37a0d371db965a85c5 -->
+
+<div class="file-navigation js-zeroclipboard-container">
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/Ecohen4/data-viz/blob/gh-pages/ebola/germs.json"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="gh-pages">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/Ecohen4/data-viz/blob/hw2/ebola/germs.json"
+               data-name="hw2"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="hw2">
+                hw2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/Ecohen4/data-viz/blob/master/ebola/germs.json"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="button-group right">
+    <a href="/Ecohen4/data-viz/find/master"
+          class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s"
+          data-pjax
+          data-hotkey="t"
+          aria-label="Quickly jump between files">
+      <span class="octicon octicon-list-unordered"></span>
+    </a>
+    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+  </div>
+
+  <div class="breadcrumb js-zeroclipboard-target">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/Ecohen4/data-viz" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">data-viz</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/Ecohen4/data-viz/tree/master/ebola" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">ebola</span></a></span><span class="separator">/</span><strong class="final-path">germs.json</strong>
+  </div>
+</div>
+
+<include-fragment class="commit commit-loader file-history-tease" src="/Ecohen4/data-viz/contributors/master/ebola/germs.json">
+  <div class="file-history-tease-header">
+    Fetching contributors&hellip;
+  </div>
+
+  <div class="participation">
+    <p class="loader-loading"><img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-EAF2F5-0bdc57d34b85c4a4de9d0d1db10cd70e8a95f33ff4f46c5a8c48b4bf4e5a9abe.gif" width="16" /></p>
+    <p class="loader-error">Cannot retrieve contributors at this time</p>
+  </div>
+</include-fragment>
+<div class="file">
+  <div class="file-header">
+    <div class="file-info">
+        1 lines (1 sloc)
+        <span class="file-info-divider"></span>
+      63.579 kb
+    </div>
+    <div class="file-actions">
+      <div class="button-group">
+        <a href="/Ecohen4/data-viz/raw/master/ebola/germs.json" class="minibutton " id="raw-url">Raw</a>
+          <a href="/Ecohen4/data-viz/blame/master/ebola/germs.json" class="minibutton js-update-url-with-hash">Blame</a>
+        <a href="/Ecohen4/data-viz/commits/master/ebola/germs.json" class="minibutton " rel="nofollow">History</a>
+      </div><!-- /.button-group -->
+
+        <a class="octicon-button tooltipped tooltipped-nw js-conduit-openfile-check"
+           href="http://mac.github.com"
+           data-url="github-mac://openRepo/https://github.com/Ecohen4/data-viz?branch=master&amp;filepath=ebola%2Fgerms.json"
+           aria-label="Open this file in GitHub for Mac"
+           data-failed-title="Your version of GitHub for Mac is too old to open this file. Try checking for updates.">
+            <span class="octicon octicon-device-desktop"></span>
+        </a>
+
+            <a class="octicon-button tooltipped tooltipped-n js-update-url-with-hash"
+               aria-label="Clicking this button will fork this project so you can edit the file"
+               href="/Ecohen4/data-viz/edit/master/ebola/germs.json"
+               data-method="post" rel="nofollow"><span class="octicon octicon-pencil"></span></a>
+
+          <a class="octicon-button danger tooltipped tooltipped-s"
+             href="/Ecohen4/data-viz/delete/master/ebola/germs.json"
+             aria-label="Fork this project and delete file"
+             data-method="post" data-test-id="delete-blob-file" rel="nofollow">
+        <span class="octicon octicon-trashcan"></span>
+      </a>
+    </div><!-- /.actions -->
+  </div>
+  
+  <div class="blob-wrapper data type-json">
+      <table class="highlight tab-size-8 js-file-line-container">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code js-file-line">[ { &quot;germ&quot; : &quot;Anthrax (untreated)&quot;, &quot;case.fatality.rate&quot; : 20, &quot;average.basic.reproductive.rate&quot; : &quot;&quot;, &quot;primary.mode.of.transmission&quot; : &quot;&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;100,000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;20,250&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;https://www.google.com/search?sourceid=chrome-psyapi2&amp;ion=1&amp;espv=2&amp;ie=UTF-8&amp;q=anthrax%20case%20fatality%20rate&quot;, &quot;yearly.fatalities.4&quot; : &quot;&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://en.wikipedia.org/wiki/Infectious_dose&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Bird Flu (H5N1)&quot;, &quot;case.fatality.rate&quot; : 60, &quot;average.basic.reproductive.rate&quot; : &quot;1&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;2&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;35&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;unknown&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;18&quot;, &quot;X.2&quot; : &quot;18&quot;, &quot;X.3&quot; : &quot;2013&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;3&quot;, &quot;yearly.fatalities.3&quot; : &quot;3&quot;, &quot;X.4&quot; : &quot;2013&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1, &quot;upper.R0&quot; : 4, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : 6, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/Influenza_A_virus_subtype_H5N1&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/influenza-a-eng.php&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.nature.com/srep/2013/130710/srep02175/full/srep02175.html&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;https://microbewiki.kenyon.edu/index.php/H5N1_Influenza_A&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Bubonic Plague (untreated)&quot;, &quot;case.fatality.rate&quot; : 60, &quot;average.basic.reproductive.rate&quot; : &quot;1&quot;, &quot;primary.mode.of.transmission&quot; : &quot;bites&quot;, &quot;survival.time.on.surfaces&quot; : &quot;3&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;100&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;100&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;1-2000 cases a year, mortality rate unknown http://www.cdc.gov/plague/maps/&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;globally 1-2000 cases a year, mortality rate unknown esp. in undeveloped countires http://www.cdc.gov/plague/maps/&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;72&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;10-40,000,000&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/List_of_human_disease_case_fatality_rates&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0008401&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.cdc.gov/biosafety/publications/bmbl5/BMBL5_sect_VIII_a.pdf&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;C.Difficile&quot;, &quot;case.fatality.rate&quot; : 24, &quot;average.basic.reproductive.rate&quot; : &quot;1.25&quot;, &quot;primary.mode.of.transmission&quot; : &quot;fecal-oral&quot;, &quot;survival.time.on.surfaces&quot; : &quot;60&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;90&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;&lt;100&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;http://www.aricjournal.com/content/1/1/20&quot;, &quot;yearly.fatalities.1&quot; : &quot;7,300&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 0.5, &quot;upper.R0&quot; : 2, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://wwwnc.cdc.gov/eid/article/18/2/10-1611_article&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.nhs.uk/chq/Pages/how-long-do-bacteria-and-viruses-live-outside-the-body.aspx&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.ncbi.nlm.nih.gov/pubmed/21558767&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://wwwnc.cdc.gov/eid/article/15/5/08-1186_article&quot;, &quot;X.8&quot; : &quot;http://www.bio-protocol.org/e1002&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Campylobacter&quot;, &quot;case.fatality.rate&quot; : 1.2, &quot;average.basic.reproductive.rate&quot; : &quot;0.19&quot;, &quot;primary.mode.of.transmission&quot; : &quot;food&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0.6&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;28&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;500&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;http://apps.who.int/iris/bitstream/10665/80751/1/9789241564601_eng.pdf&quot;, &quot;yearly.fatalities.1&quot; : &quot;4,000&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;550&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1236927/&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.nhs.uk/chq/Pages/how-long-do-bacteria-and-viruses-live-outside-the-body.aspx&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/campylobacter-coli-eng.php&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;http://www.mssanz.org.au/modsim2011/B2/parshotam.pdf&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-3-infectious-diseases-related-to-travel/campylobacteriosis&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Chicken Pox&quot;, &quot;case.fatality.rate&quot; : 0, &quot;average.basic.reproductive.rate&quot; : &quot;8.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0.2&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;2&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;unknown&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;100,000,000&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;http://www.who.int/immunization/sage/meetings/2014/april/2_SAGE_April_VZV_Seward_Varicella.pdf?ua=1&quot;, &quot;yearly.fatalities.1&quot; : &quot;16&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;http://www.who.int/immunization/sage/meetings/2014/april/2_SAGE_April_VZV_Seward_Varicella.pdf?ua=1&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 7, &quot;upper.R0&quot; : 10, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;4&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/List_of_human_disease_case_fatality_rates&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/var-zo-eng.php&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/var-zo-eng.php&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;http://www.msdsonline.com/resources/msds-resources/free-safety-data-sheet-index/varicella-zoster-virus.aspx&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;http://jcm.asm.org/content/38/6/2447/F1.expansion.html&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/var-zo-eng.php&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Cholera&quot;, &quot;case.fatality.rate&quot; : 1.63, &quot;average.basic.reproductive.rate&quot; : &quot;2.13&quot;, &quot;primary.mode.of.transmission&quot; : &quot;&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;1,000,000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;94,000&quot;, &quot;X.2&quot; : &quot;93,992&quot;, &quot;X.3&quot; : &quot;estimated. http://www.scielosp.org/scielo.php?pid=S0042-96862012000300013&amp;script=sci_arttext&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;55,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;55,319&quot;, &quot;X.4&quot; : &quot;estimated. AFR-D + AFR-E endemic + African non-endemic countries http://www.scielosp.org/scielo.php?pid=S0042-96862012000300013&amp;script=sci_arttext&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1.63, &quot;upper.R0&quot; : 2.63, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;33,334,000,000&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.who.int/gho/epidemic_diseases/cholera/case_fatality_rate/en/&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.nature.com/srep/2013/130110/srep00997/full/srep00997.html&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://en.wikipedia.org/wiki/Infectious_dose&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Dengue Fever&quot;, &quot;case.fatality.rate&quot; : 5, &quot;average.basic.reproductive.rate&quot; : &quot;3&quot;, &quot;primary.mode.of.transmission&quot; : &quot;bites&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;unknown&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;29,000&quot;, &quot;X.2&quot; : &quot;28,755&quot;, &quot;X.3&quot; : &quot;2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;1&quot;, &quot;yearly.fatalities.2&quot; : &quot;1,900&quot;, &quot;yearly.fatalities.3&quot; : &quot;1,935&quot;, &quot;X.4&quot; : &quot;2012&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.idpjournal.com/content/3/1/12&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.cdc.gov/dengue/faqFacts/fact.html&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/msds50e-eng.php&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Diphtheria&quot;, &quot;case.fatality.rate&quot; : 7.5, &quot;average.basic.reproductive.rate&quot; : &quot;6.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;body fluids&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;unknown&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;2,600&quot;, &quot;X.2&quot; : &quot;2,615&quot;, &quot;X.3&quot; : &quot;2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;1,700&quot;, &quot;yearly.fatalities.3&quot; : &quot;1,730&quot;, &quot;X.4&quot; : &quot;2012&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 6, &quot;upper.R0&quot; : 7, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.cdc.gov/diphtheria/clinicians.html&quot;, &quot;yearly.fatalities.4&quot; : &quot;&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/msds51e-eng.php&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;E.coli&quot;, &quot;case.fatality.rate&quot; : 4, &quot;average.basic.reproductive.rate&quot; : &quot;1.15&quot;, &quot;primary.mode.of.transmission&quot; : &quot;fecal-oral&quot;, &quot;survival.time.on.surfaces&quot; : &quot;1&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;2&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;100,000,000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;260,000&quot;, &quot;X.2&quot; : &quot;256,111&quot;, &quot;X.3&quot; : &quot;1,497,724 deaths from diarrhea in 2012 (WHO GBD 2014). enteropathogenic + enterotoxigenic E. coli: est. 17.1% of childhood diarrhea deaths, applied to total. (no estimate proportion available for all diarrhea deaths incl. adults). http://www.ncbi.nlm.nih.gov/pubmed/24023773; http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3762858/#!po=34.3750&quot;, &quot;yearly.fatalities.1&quot; : &quot;100&quot;, &quot;yearly.fatalities.2&quot; : &quot;103,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;103,065&quot;, &quot;X.4&quot; : &quot;602,717 deaths from diarrhea in 2012 (WHO GBD 2014). enteropathogenic + enterotoxigenic E. coli: est. 17.1% of childhood diarrhea deaths, applied to total. (no estimate proportion available for all diarrhea deaths incl. adults(. http://www.ncbi.nlm.nih.gov/pubmed/24023773; http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3762858/#!po=34.3750&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 0.3, &quot;upper.R0&quot; : 2, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;~&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;50,500,000&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/escherichia-coli-eng.php#footnote14&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://aem.asm.org/content/69/7/3687&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.who.int/mediacentre/factsheets/fs125/en/&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;http://www.mssanz.org.au/modsim2011/B2/parshotam.pdf&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://en.wikipedia.org/wiki/Infectious_dose&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Ebola&quot;, &quot;case.fatality.rate&quot; : 50, &quot;average.basic.reproductive.rate&quot; : &quot;2.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;body fluids&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0.5&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;14&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;5&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;50,000,000,000&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;4,555&quot;, &quot;X.2&quot; : &quot;4,555&quot;, &quot;X.3&quot; : &quot;2014, as of Oct 14, 2014, http://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/case-counts.html&quot;, &quot;yearly.fatalities.1&quot; : &quot;1&quot;, &quot;yearly.fatalities.2&quot; : &quot;4,554&quot;, &quot;yearly.fatalities.3&quot; : &quot;4,554&quot;, &quot;X.4&quot; : &quot;2014, as of Oct 14, 2014, http://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/case-counts.html&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1, &quot;upper.R0&quot; : 4, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.who.int/mediacentre/factsheets/fs103/en/&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.cdc.gov/vhf/ebola/transmission/qas.html&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/ebola-eng.php&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;http://en.wikipedia.org/wiki/Basic_reproduction_number&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;http://www.who.int/mediacentre/factsheets/fs103/en/&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;http://currents.plos.org/outbreaks/article/estimating-the-reproduction-number-of-zaire-ebolavirus-ebov-during-the-2014-outbreak-in-west-africa/&quot;, &quot;X.6&quot; : &quot;http://www.nytimes.com/2014/10/14/us/questions-rise-on-preparations-at-hospitals-to-deal-with-ebola.html?_r=0&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CB8QFjAA&amp;url=http%3A%2F%2Fwww.phac-aspc.gc.ca%2Flab-bio%2Fres%2Fpsds-ftss%2Febola-eng.php&amp;ei=KSJEVI_mCqPg7QaIooDgBg&amp;usg=AFQjCNEiBmo7OAsASyqJsRY3QzjgQr2NjA&amp;sig2=JvZD-hqLKkrlbH-lA6i-3A&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Hepatitis B&quot;, &quot;case.fatality.rate&quot; : 0.75, &quot;average.basic.reproductive.rate&quot; : &quot;4.04&quot;, &quot;primary.mode.of.transmission&quot; : &quot;body fluids&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0.7&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;7&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;&#39;extraordinarily small&#39;&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;12,500,000&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;150,000&quot;, &quot;X.2&quot; : &quot;149,164&quot;, &quot;X.3&quot; : &quot;acute, 2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;1,800&quot;, &quot;yearly.fatalities.2&quot; : &quot;18,600&quot;, &quot;yearly.fatalities.3&quot; : &quot;18,753&quot;, &quot;X.4&quot; : &quot;acute, 2012&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1.45, &quot;upper.R0&quot; : 6.62, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;16&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.cdc.gov/vaccines/pubs/surv-manual/chpt04-hepb.pdf&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/hepatitis-b-eng.php&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.ncbi.nlm.nih.gov/pubmed/21040731&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;http://link.springer.com/article/10.1007%2Fs00477-013-0776-0#page-1&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;http://www.nytimes.com/2014/10/14/us/questions-rise-on-preparations-at-hospitals-to-deal-with-ebola.html?_r=0&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://infectionnet.org/notes/hepatitis-viruses/&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;HIV (treated)&quot;, &quot;case.fatality.rate&quot; : 2.1, &quot;average.basic.reproductive.rate&quot; : &quot;3.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;sexual contact&quot;, &quot;survival.time.on.surfaces&quot; : &quot;7&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;15&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;1-65000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;75,000&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;1,500,000&quot;, &quot;X.2&quot; : &quot;1,533,760&quot;, &quot;X.3&quot; : &quot;both treated and untreated, 2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;8,400&quot;, &quot;yearly.fatalities.2&quot; : &quot;1,090,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;1,088,252&quot;, &quot;X.4&quot; : &quot;2012, treated and untreated&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 2, &quot;upper.R0&quot; : 5, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : 7, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.aidsmap.com/Wide-variations-between-US-states-in-HIV-mortality-rates/page/2117475/&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.aidsmap.com/Survival-outside-the-body/page/1321278/&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.bmj.com/rapid-response/2011/11/01/hiv-survival-outside-body&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/hiv-vih-eng.php&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;http://en.wikipedia.org/wiki/Basic_reproduction_number&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;http://www.academia.edu/1746565/Epidemiologic_Concepts_for_the_Prevention_and_Control_of_Infectious_Diseases&quot;, &quot;X.6&quot; : &quot;http://www.nytimes.com/2014/10/14/us/questions-rise-on-preparations-at-hospitals-to-deal-with-ebola.html?_r=0&quot;, &quot;X.7&quot; : &quot;http://www.ncbi.nlm.nih.gov/pubmed/19948896&quot;, &quot;infectious.dose.1&quot; : &quot;http://pathmicro.med.sc.edu/lecture/hiv3.htm&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;HIV (untreated)&quot;, &quot;case.fatality.rate&quot; : 80, &quot;average.basic.reproductive.rate&quot; : &quot;3.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;sexual contact&quot;, &quot;survival.time.on.surfaces&quot; : &quot;7&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;15&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;1-65000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;1,500,000&quot;, &quot;X.2&quot; : &quot;1,533,760&quot;, &quot;X.3&quot; : &quot;both treated and untreated, 2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;8,400&quot;, &quot;yearly.fatalities.2&quot; : &quot;1,090,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;1,088,252&quot;, &quot;X.4&quot; : &quot;2012, treated and untreated&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 2, &quot;upper.R0&quot; : 5, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : 7, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.aidsmap.com/Survival-outside-the-body/page/1321278/&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.bmj.com/rapid-response/2011/11/01/hiv-survival-outside-body&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/hiv-vih-eng.php&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;http://en.wikipedia.org/wiki/Basic_reproduction_number&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;http://www.academia.edu/1746565/Epidemiologic_Concepts_for_the_Prevention_and_Control_of_Infectious_Diseases&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.ncbi.nlm.nih.gov/pubmed/19948896&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Influenza Pandemic 1918&quot;, &quot;case.fatality.rate&quot; : 2.5, &quot;average.basic.reproductive.rate&quot; : &quot;3&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;5.6&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;75,000,000 (1918-19)&quot;, &quot;X.2&quot; : &quot;75,000,000&quot;, &quot;X.3&quot; : &quot;est. 50-100m, 1918-19&quot;, &quot;yearly.fatalities.1&quot; : &quot;650,000 (1918-19)&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1.8, &quot;upper.R0&quot; : 2, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CCgQFjAA&amp;url=http%3A%2F%2Fcis.uchicago.edu%2Foutreach%2Fsummerinstitute%2Fepidemics%2Fpresentations%2FWeber.ppt&amp;ei=b5U3VNP_DoTP7gb6joGwDQ&amp;usg=AFQjCNFw3QCdUNXC11CgV8_D__3LyaGt5w&amp;sig2=dfHcL3cMQqk-P8xOJqUTrg&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://wwwnc.cdc.gov/eid/article/12/1/05-0979_article&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://wwwnc.cdc.gov/eid/article/12/11/06-0426_article&quot;, &quot;X.8&quot; : &quot;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=6&amp;ved=0CE4QFjAF&amp;url=http%3A%2F%2Fwww.mdpi.com%2F1999-4915%2F2%2F8%2F1530%2Fpdf&amp;ei=PvBEVKO5Hcau7Abyy4GADw&amp;usg=AFQjCNGSB-f7wflPOcjC933IbtZwfvUtPA&amp;sig2=rCX6dQtdVhSGXsBFXF-VIQ&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Lyme Disease&quot;, &quot;case.fatality.rate&quot; : 0.2, &quot;average.basic.reproductive.rate&quot; : &quot;4.4&quot;, &quot;primary.mode.of.transmission&quot; : &quot;bites&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;50000*&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;-&quot;, &quot;yearly.fatalities.1&quot; : &quot;10&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 3.8, &quot;upper.R0&quot; : 5, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://izt.ciens.ucv.ve/ecologia/Archivos/ECO_POB%202008/ECOPO6_2008/Hartemink%20y%20col%202008.pdf&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.cdc.gov/anaplasmosis/stats/&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0101009&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Malaria (P. falciparum)&quot;, &quot;case.fatality.rate&quot; : 0.5, &quot;average.basic.reproductive.rate&quot; : &quot;80&quot;, &quot;primary.mode.of.transmission&quot; : &quot;bites&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;~&quot;, &quot;pathogen.type&quot; : &quot;parasite&quot;, &quot;infectious.dose&quot; : &quot;1 to 10&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;620,000&quot;, &quot;X.2&quot; : &quot;618,248&quot;, &quot;X.3&quot; : &quot;unspecified strain, 2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;10&quot;, &quot;yearly.fatalities.2&quot; : &quot;550,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;553,869&quot;, &quot;X.4&quot; : &quot;2012, unspecified strain&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.malariajournal.com/content/11/1/19&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.0050042&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://ocw.jhsph.edu/courses/publichealthbiology/PDFs/Lecture2.pdf&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.malariasite.com/malaria/Transmission.htm&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Malaria (P. malariae)&quot;, &quot;case.fatality.rate&quot; : 0.5, &quot;average.basic.reproductive.rate&quot; : &quot;16&quot;, &quot;primary.mode.of.transmission&quot; : &quot;bites&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;~&quot;, &quot;pathogen.type&quot; : &quot;parasite&quot;, &quot;infectious.dose&quot; : &quot;1 to 10&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;620,000&quot;, &quot;X.2&quot; : &quot;618,248&quot;, &quot;X.3&quot; : &quot;unspecified strain, 2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;10&quot;, &quot;yearly.fatalities.2&quot; : &quot;550,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;553,869&quot;, &quot;X.4&quot; : &quot;2012, unspecified strain&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.malariajournal.com/content/11/1/19&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.0050042&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://ocw.jhsph.edu/courses/publichealthbiology/PDFs/Lecture2.pdf&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.malariasite.com/malaria/Transmission.htm&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Measles&quot;, &quot;case.fatality.rate&quot; : 0.3, &quot;average.basic.reproductive.rate&quot; : &quot;15&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0.1&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;-&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;10,000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;130,000&quot;, &quot;X.2&quot; : &quot;130,461&quot;, &quot;X.3&quot; : &quot;&quot;, &quot;yearly.fatalities.1&quot; : &quot;2&quot;, &quot;yearly.fatalities.2&quot; : &quot;48,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;48,235&quot;, &quot;X.4&quot; : &quot;2012&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 12, &quot;upper.R0&quot; : 18, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;2&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/Measles&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.cdc.gov/measles/about/transmission.html&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://en.wikipedia.org/wiki/Basic_reproduction_number&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.biomedcentral.com/1741-7015/7/16&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;MERS&quot;, &quot;case.fatality.rate&quot; : 45, &quot;average.basic.reproductive.rate&quot; : &quot;0.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;2&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;5&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;unknown&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;170&quot;, &quot;X.2&quot; : &quot;171&quot;, &quot;X.3&quot; : &quot;June 2013-June 2014. 209 deaths to 11 June, 2014 minus 38 deaths to 20 June, 2013. http://www.who.int/csr/disease/coronavirus_infections/MERS-CoV_summary_update_20140611.pdf; http://www.who.int/csr/disease/coronavirus_infections/update_20130620/en/&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;2&quot;, &quot;yearly.fatalities.3&quot; : &quot;2&quot;, &quot;X.4&quot; : &quot;Oct 2013-OCt 2014, 1 in Algeria http://www.reuters.com/article/2014/06/10/us-health-mers-algeria-idUSKBN0EL1P820140610; 1 in Egypt (suspected) http://www.reuters.com/article/2014/05/05/us-health-mers-egypt-idUSKBN0DL0BQ20140505. 1 death in Tunisia in April 2013 (not counted here) http://www.cidrap.umn.edu/news-perspective/2014/06/report-tunisian-mers-cases-shows-testing-challenges&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/List_of_human_disease_case_fatality_rates&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.eurosurveillance.org/ViewArticle.aspx?ArticleId=20590&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.sciencedirect.com/science/article/pii/S120197121401491X&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.ehs.colostate.edu/WOHSP/Illness_Policy_Info_Emergency_Response_Packets/Agent_Fact_Sheets/Middle_East_Respiratory_Syndrome_Virus_Fact_Sheet.pdf&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;MRSA&quot;, &quot;case.fatality.rate&quot; : 20, &quot;average.basic.reproductive.rate&quot; : &quot;1.625&quot;, &quot;primary.mode.of.transmission&quot; : &quot;surfaces&quot;, &quot;survival.time.on.surfaces&quot; : &quot;7&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;42&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;100,000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;-&quot;, &quot;yearly.fatalities.1&quot; : &quot;11,000&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 0.25, &quot;upper.R0&quot; : 3, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : 38, &quot;infectious.dose.second.source&quot; : &quot;100,000&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.medicinenet.com/mrsa_infection/page7.htm&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/staphylococcus-aureus-eng.php&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.crd.york.ac.uk/crdweb/ShowRecord.asp?ID=22010001059#.VDeZP9R4q5w&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=9&amp;ved=0CFsQFjAI&amp;url=http%3A%2F%2Fwww.phac-aspc.gc.ca%2Flab-bio%2Fres%2Fpsds-ftss%2Fstaphylococcus-aureus-eng.php&amp;ei=KSJEVI_mCqPg7QaIooDgBg&amp;usg=AFQjCNG5JOHXYqZwCmKvVZ8zVdxFT69ROg&amp;sig2=47gsLPgoNtv49wVRWGlUqA&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Mumps&quot;, &quot;case.fatality.rate&quot; : 1, &quot;average.basic.reproductive.rate&quot; : &quot;12.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;-&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;-&quot;, &quot;yearly.fatalities.1&quot; : &quot;1&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 11, &quot;upper.R0&quot; : 14, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://ocw.jhsph.edu/courses/publichealthbiology/PDFs/Lecture2.pdf&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.health.gov.au/internet/immunise/publishing.nsf/content/handbook10-4-11&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Norovirus&quot;, &quot;case.fatality.rate&quot; : 0.01, &quot;average.basic.reproductive.rate&quot; : &quot;2&quot;, &quot;primary.mode.of.transmission&quot; : &quot;surfaces&quot;, &quot;survival.time.on.surfaces&quot; : &quot;12&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;28&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;18-1000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;150,000&quot;, &quot;X.2&quot; : &quot;148,275&quot;, &quot;X.3&quot; : &quot;est. for all caliciviruses, 9.9% of deaths from diarrhea among children under 5 http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3762858/#!po=34.3750, applied to 1,497,724 total global deaths from diarrhea, incl. adults (2012, WHO GBD). another estimate: 218,000 child deaths / year. http://www.ghjournal.org/the-epidemiology-of-noroviruses-in-ghana-a-case-study-of-norovirus-detection/&quot;, &quot;yearly.fatalities.1&quot; : &quot;690&quot;, &quot;yearly.fatalities.2&quot; : &quot;60,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;59,669&quot;, &quot;X.4&quot; : &quot;602,717 deaths in Africa from diarrhea in 2012 (WHO GBD 2014). 9.9% of child diarrhea deaths from caliciviruses (incl. norovirus). http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3762858/&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://wwwnc.cdc.gov/eid/article/19/8/13-0465_article&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.cdc.gov/hicpac/norovirus/tables/evidence-table-q3-ron.html&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://wwwnc.cdc.gov/eid/article/19/8/13-0472-t3&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.cdc.gov/mmwr/preview/mmwrhtml/rr6003a1.htm&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Pertussis (Whooping Cough)&quot;, &quot;case.fatality.rate&quot; : 4, &quot;average.basic.reproductive.rate&quot; : &quot;14.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;&lt;100&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;67,000&quot;, &quot;X.2&quot; : &quot;67,059&quot;, &quot;X.3&quot; : &quot;&quot;, &quot;yearly.fatalities.1&quot; : &quot;26&quot;, &quot;yearly.fatalities.2&quot; : &quot;37,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;37,133&quot;, &quot;X.4&quot; : &quot;2012&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 12, &quot;upper.R0&quot; : 17, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;200&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.who.int/immunization/monitoring_surveillance/burden/vpd/surveillance_type/passive/pertussis_standards/en/&quot;, &quot;yearly.fatalities.4&quot; : &quot;&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://en.wikipedia.org/wiki/Basic_reproduction_number&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=23&amp;ved=0CMUBEBYwFg&amp;url=http%3A%2F%2Fwww.phac-aspc.gc.ca%2Flab-bio%2Fres%2Fpsds-ftss%2Fbordetella-pertussis-eng.php&amp;ei=KSJEVI_mCqPg7QaIooDgBg&amp;usg=AFQjCNFEMnwoU5HbhHgLtrfXp7JJxY6zfA&amp;sig2=t9soKF3TSHfUWcMOLbNnRQ&quot;, &quot;X.8&quot; : &quot;http://www.jove.com/visualize/abstract/24227794/resident-microbiota-affect-bordetella-pertussis-infectious-dose-host&quot;, &quot;X.9&quot; : &quot;http://microbewiki.kenyon.edu/index.php/Haemophilus_pertussis_(Whooping_Cough)#Infectious_dose.2C_incubation.2C_and_colonization&quot; }, { &quot;germ&quot; : &quot;Polio&quot;, &quot;case.fatality.rate&quot; : 22, &quot;average.basic.reproductive.rate&quot; : &quot;6&quot;, &quot;primary.mode.of.transmission&quot; : &quot;fecal-oral&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;3&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;20&quot;, &quot;X.2&quot; : &quot;21&quot;, &quot;X.3&quot; : &quot;416 cases in 2013, http://www.polioeradication.org/dataandmonitoring/poliothisweek.aspx assuming case fatality rate of 5%, rounded to nearest 5&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;15&quot;, &quot;yearly.fatalities.3&quot; : &quot;14&quot;, &quot;X.4&quot; : &quot;274 cases in Africa in 2013, http://www.polioeradication.org/dataandmonitoring/poliothisweek.aspx, assuming case fatality rate of 5%, rounded to nearest 5&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 5, &quot;upper.R0&quot; : 7, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.plospathogens.org/article/info%3Adoi%2F10.1371%2Fjournal.ppat.1002512&quot;, &quot;yearly.fatalities.4&quot; : &quot;&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Rabies (treated)&quot;, &quot;case.fatality.rate&quot; : 1, &quot;average.basic.reproductive.rate&quot; : &quot;1.6&quot;, &quot;primary.mode.of.transmission&quot; : &quot;bites&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;-&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;unknown&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;35,000&quot;, &quot;X.2&quot; : &quot;35,410&quot;, &quot;X.3&quot; : &quot;both treated and untreated, 2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;1&quot;, &quot;yearly.fatalities.2&quot; : &quot;15,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;14,814&quot;, &quot;X.4&quot; : &quot;2012, treated and untreated&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1.2, &quot;upper.R0&quot; : 2, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://books.google.co.uk/books?id=TRyXTLXNA2YC&amp;pg=PA662&amp;lpg=PA662&amp;dq=rabies+%22fatality+rate%22+vaccinated&amp;source=bl&amp;ots=sZQ1wRKW68&amp;sig=Cd7arUDNIjuxRgSWLpLfaJHupPI&amp;hl=en&amp;sa=X&amp;ei=zks-VPOGBoKS7AaQ0YCAAw&amp;redir_esc=y#v=onepage&amp;q=rabies%20%22fatality%20rate%22%20vaccinated&amp;f=false&quot;, &quot;yearly.fatalities.4&quot; : &quot;&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Rabies (untreated)&quot;, &quot;case.fatality.rate&quot; : 100, &quot;average.basic.reproductive.rate&quot; : &quot;1.6&quot;, &quot;primary.mode.of.transmission&quot; : &quot;bites&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;-&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;unknown&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;35,000&quot;, &quot;X.2&quot; : &quot;35,410&quot;, &quot;X.3&quot; : &quot;both treated and untreated, 2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;1&quot;, &quot;yearly.fatalities.2&quot; : &quot;15,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;14,814&quot;, &quot;X.4&quot; : &quot;2012, treated and untreated&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1.2, &quot;upper.R0&quot; : 2, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/List_of_human_disease_case_fatality_rates&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/rab-eng.php&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1000053&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=20&amp;ved=0CK0BEBYwEw&amp;url=http%3A%2F%2Fwww.phac-aspc.gc.ca%2Flab-bio%2Fres%2Fpsds-ftss%2Frab-eng.php&amp;ei=KSJEVI_mCqPg7QaIooDgBg&amp;usg=AFQjCNGZx7rlokxJlDVWP2WN6zhrTBqjfw&amp;sig2=k7X40YGQV2VTtm7e94Pq7w&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Rhinovirus&quot;, &quot;case.fatality.rate&quot; : 0, &quot;average.basic.reproductive.rate&quot; : &quot;6&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0.1&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;1&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;0.4&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;1000&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;-&quot;, &quot;yearly.fatalities.1&quot; : &quot;-&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;3&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/rhinovirus-eng.php&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://books.google.co.uk/books?id=5uMf4qCmghEC&amp;pg=PA201&amp;lpg=PA201&amp;dq=rhinovirus+%22basic+reproductive+number%22+OR+%22basic+reproductive+rate%22&amp;source=bl&amp;ots=M5hiyWlzzL&amp;sig=NG0Ydv1t-UJ3o1GGGeyLMkP5KHE&amp;hl=en&amp;sa=X&amp;ei=hpo3VLWrJebB7Aa9xIHIBw&amp;redir_esc=y#v=onepage&amp;q=rhinovirus%20%22basic%20reproductive%20number%22%20OR%20%22basic%20reproductive%20rate%22&amp;f=false&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://pathmicro.med.sc.edu/virol/rhino.htm&quot;, &quot;X.8&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/rhinovirus-eng.php&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Rotavirus&quot;, &quot;case.fatality.rate&quot; : 0, &quot;average.basic.reproductive.rate&quot; : &quot;17.6&quot;, &quot;primary.mode.of.transmission&quot; : &quot;fecal-oral&quot;, &quot;survival.time.on.surfaces&quot; : &quot;7&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;60&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;&lt;100&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;450,000&quot;, &quot;X.2&quot; : &quot;453,000&quot;, &quot;X.3&quot; : &quot;2008. children &lt;5 http://www.cdc.gov/rotavirus/surveillance.html http://www.historyofvaccines.org/content/articles/rotavirus&quot;, &quot;yearly.fatalities.1&quot; : &quot;-&quot;, &quot;yearly.fatalities.2&quot; : &quot;230,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;232,000&quot;, &quot;X.4&quot; : &quot;2008. http://www.path.org/publications/files/VAD_rotavirus_africa_fs.pdf&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/rotavirus-eng.php&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0042320#pone-0042320-t003&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://wwwnc.cdc.gov/eid/article/20/1/13-0019_article&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.cdc.gov/vaccines/pubs/surv-manual/chpt13-rotavirus.html&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Rubella&quot;, &quot;case.fatality.rate&quot; : 0, &quot;average.basic.reproductive.rate&quot; : &quot;6&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;Oct-60&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;-&quot;, &quot;yearly.fatalities.1&quot; : &quot;1&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 5, &quot;upper.R0&quot; : 7, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;&quot;, &quot;yearly.fatalities.4&quot; : &quot;&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/rub-eng.php&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Salmonella&quot;, &quot;case.fatality.rate&quot; : 1, &quot;average.basic.reproductive.rate&quot; : &quot;0.8&quot;, &quot;primary.mode.of.transmission&quot; : &quot;food&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0.6&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;90&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;100&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;115,000&quot;, &quot;X.2&quot; : &quot;115,000&quot;, &quot;X.3&quot; : &quot;http://wwwnc.cdc.gov/travel/yellowbook/2014/chapter-3-infectious-diseases-related-to-travel/salmonellosis-nontyphoidal&quot;, &quot;yearly.fatalities.1&quot; : &quot;28&quot;, &quot;yearly.fatalities.2&quot; : &quot;4,100&quot;, &quot;yearly.fatalities.3&quot; : &quot;4,100&quot;, &quot;X.4&quot; : &quot;2006 estimate. global estimate in this paper is 155,000. http://cid.oxfordjournals.org/content/50/6/882/F2.expansion.html&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://jid.oxfordjournals.org/content/198/1/109.long&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.nhs.uk/chq/Pages/how-long-do-bacteria-and-viruses-live-outside-the-body.aspx&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.sciencedirect.com/science/article/pii/S002555641300148X&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.cdc.gov/biosafety/publications/bmbl5/BMBL5_sect_VIII_a.pdf&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;SARS&quot;, &quot;case.fatality.rate&quot; : 9.6, &quot;average.basic.reproductive.rate&quot; : &quot;2.4&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;1&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;7&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;20 - can&#39;t substantiate&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;0&quot;, &quot;X.2&quot; : &quot;0&quot;, &quot;X.3&quot; : &quot;since 2004, no new cases anywhere in world. http://www.cdc.gov/sars/media/&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;0&quot;, &quot;yearly.fatalities.3&quot; : &quot;0&quot;, &quot;X.4&quot; : &quot;http://www.cdc.gov/sars/media/&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1.2, &quot;upper.R0&quot; : 3.6, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://wwwnc.cdc.gov/eid/article/11/8/pdfs/04-0449.pdf&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://en.wikipedia.org/wiki/Basic_reproduction_number&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Scarlet Fever&quot;, &quot;case.fatality.rate&quot; : 0.5, &quot;average.basic.reproductive.rate&quot; : &quot;2.8&quot;, &quot;primary.mode.of.transmission&quot; : &quot;body fluids&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;unknown&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;-&quot;, &quot;yearly.fatalities.1&quot; : &quot;3&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 5, &quot;upper.R0&quot; : 7, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.emedicinehealth.com/scarlet_fever/page10_em.htm&quot;, &quot;yearly.fatalities.4&quot; : &quot;&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/strep-pyogenes-eng.php&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Seasonal Flu&quot;, &quot;case.fatality.rate&quot; : 0.1, &quot;average.basic.reproductive.rate&quot; : &quot;2.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;1&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;2&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;790&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;375,000&quot;, &quot;X.2&quot; : &quot;375,000&quot;, &quot;X.3&quot; : &quot;range 250-500,000. http://www.who.int/mediacentre/factsheets/fs211/en/&quot;, &quot;yearly.fatalities.1&quot; : &quot;26,000&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;unknown. http://jid.oxfordjournals.org/content/206/suppl_1/S1.full.pdf+html&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 2, &quot;upper.R0&quot; : 3, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/List_of_human_disease_case_fatality_rates&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/influenza-grippe-b-c-eng.php&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://en.wikipedia.org/wiki/Basic_reproduction_number&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/influenza-a-eng.php&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Smallpox&quot;, &quot;case.fatality.rate&quot; : 15, &quot;average.basic.reproductive.rate&quot; : &quot;6&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;1&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;0&quot;, &quot;X.2&quot; : &quot;0&quot;, &quot;X.3&quot; : &quot;eradicated&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;0&quot;, &quot;yearly.fatalities.3&quot; : &quot;0&quot;, &quot;X.4&quot; : &quot;eradicated&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 5, &quot;upper.R0&quot; : 7, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;&quot;, &quot;yearly.fatalities.4&quot; : &quot;&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.absa.org/abj/abj/040903nicas.pdf&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Swine Flu (H1N1)&quot;, &quot;case.fatality.rate&quot; : 0.2, &quot;average.basic.reproductive.rate&quot; : &quot;1.5&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;0.4&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;2&quot;, &quot;pathogen.type&quot; : &quot;virus&quot;, &quot;infectious.dose&quot; : &quot;500&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;360,000 (during 2009 pandemic)&quot;, &quot;X.2&quot; : &quot;363,550&quot;, &quot;X.3&quot; : &quot;2009, during first year virus circulated. http://www.thelancet.com/journals/laninf/article/PIIS1473-3099(12)70121-4/fulltext&quot;, &quot;yearly.fatalities.1&quot; : &quot;12,500 (during 2009 pandemic&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1.4, &quot;upper.R0&quot; : 1.6, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.cidrap.umn.edu/news-perspective/2013/01/study-puts-global-2009-pandemic-h1n1-infection-rate-24&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.panama-guide.com/article.php/20090517152331424&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=6&amp;ved=0CE4QFjAF&amp;url=http%3A%2F%2Fwww.mdpi.com%2F1999-4915%2F2%2F8%2F1530%2Fpdf&amp;ei=PvBEVKO5Hcau7Abyy4GADw&amp;usg=AFQjCNGSB-f7wflPOcjC933IbtZwfvUtPA&amp;sig2=rCX6dQtdVhSGXsBFXF-VIQ&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Syphilis (untreated)&quot;, &quot;case.fatality.rate&quot; : 33, &quot;average.basic.reproductive.rate&quot; : &quot;0.9&quot;, &quot;primary.mode.of.transmission&quot; : &quot;sexual contact&quot;, &quot;survival.time.on.surfaces&quot; : &quot;11&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;-&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;57&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;79,000&quot;, &quot;X.2&quot; : &quot;78,911&quot;, &quot;X.3&quot; : &quot;2012, treated and untreated&quot;, &quot;yearly.fatalities.1&quot; : &quot;28&quot;, &quot;yearly.fatalities.2&quot; : &quot;46,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;45,505&quot;, &quot;X.4&quot; : &quot;2012, treated and untreated&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/Syphilis&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2476079/?page=1&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1360276/&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Tuberculosis (untreated)&quot;, &quot;case.fatality.rate&quot; : 60, &quot;average.basic.reproductive.rate&quot; : &quot;10&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;60&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;120&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;&lt;10&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;930,000&quot;, &quot;X.2&quot; : &quot;934,879&quot;, &quot;X.3&quot; : &quot;2012&quot;, &quot;yearly.fatalities.1&quot; : &quot;570&quot;, &quot;yearly.fatalities.2&quot; : &quot;220,000&quot;, &quot;yearly.fatalities.3&quot; : &quot;217,582&quot;, &quot;X.4&quot; : &quot;2012&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : 1.4, &quot;upper.R0&quot; : 10, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;10&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://en.wikipedia.org/wiki/Tuberculosis&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/tuber-eng.php&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=13&amp;ved=0CHkQFjAM&amp;url=http%3A%2F%2Fwww.phac-aspc.gc.ca%2Flab-bio%2Fres%2Fpsds-ftss%2Ftuber-eng.php&amp;ei=KSJEVI_mCqPg7QaIooDgBg&amp;usg=AFQjCNFifPMWHqE30pqhPTge6aPlMeTVug&amp;sig2=om5rubwGRsmTwETKmR05oA&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Typhoid&quot;, &quot;case.fatality.rate&quot; : 20, &quot;average.basic.reproductive.rate&quot; : &quot;2.8&quot;, &quot;primary.mode.of.transmission&quot; : &quot;fecal-oral&quot;, &quot;survival.time.on.surfaces&quot; : &quot;&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;100,000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;200,000&quot;, &quot;X.2&quot; : &quot;200,000&quot;, &quot;X.3&quot; : &quot;http://www.cdc.gov/nczved/divisions/dfbmd/diseases/typhoid_fever/technical.html&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;http://www.plosntds.org/article/info%3Adoi%2F10.1371%2Fjournal.pntd.0002642&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3484760/&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.mayoclinic.org/diseases-conditions/typhoid-fever/basics/causes/con-20028553&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/salmonella-ent-eng.php&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; }, { &quot;germ&quot; : &quot;Pneumonic Plague (untreated)&quot;, &quot;case.fatality.rate&quot; : 100, &quot;average.basic.reproductive.rate&quot; : &quot;3.2&quot;, &quot;primary.mode.of.transmission&quot; : &quot;airborne droplet&quot;, &quot;survival.time.on.surfaces&quot; : &quot;3&quot;, &quot;survival.in.ideal.conditions..ie..blood..faeces.&quot; : &quot;100&quot;, &quot;pathogen.type&quot; : &quot;bacterium&quot;, &quot;infectious.dose&quot; : &quot;10,000,000,000&quot;, &quot;viral.load.in.acute.stage&quot; : &quot;&quot;, &quot;X.1&quot; : &quot;NA&quot;, &quot;yearly.fatalities&quot; : &quot;-&quot;, &quot;X.2&quot; : &quot;-&quot;, &quot;X.3&quot; : &quot;-&quot;, &quot;yearly.fatalities.1&quot; : &quot;0&quot;, &quot;yearly.fatalities.2&quot; : &quot;-&quot;, &quot;yearly.fatalities.3&quot; : &quot;-&quot;, &quot;X.4&quot; : &quot;-&quot;, &quot;X.5&quot; : &quot;NA&quot;, &quot;lower.R0&quot; : NA, &quot;upper.R0&quot; : NA, &quot;survival.time.on.surfaces..room.temp..hours.&quot; : &quot;72&quot;, &quot;lower&quot; : NA, &quot;infectious.dose.second.source&quot; : &quot;&quot;, &quot;infectious.dose.third.source&quot; : &quot;&quot;, &quot;sources&quot; : &quot;NA&quot;, &quot;http...www.phac.aspc.gc.ca.lab.bio.res.psds.ftss.index.eng.php.v&quot; : &quot;https://public.health.oregon.gov/DiseasesConditions/CommunicableDisease/ReportingCommunicableDisease/ReportingGuidelines/Documents/plague.pdf&quot;, &quot;yearly.fatalities.4&quot; : &quot;http://www.researchgate.net/publication/6993284_Transmission_potential_of_primary_pneumonic_plague_time_inhomogeneous_evaluation_based_on_historical_documents_of_the_transmission_network&quot;, &quot;http...www.who.int.healthinfo.global_burden_disease.estimates.en.index1.html&quot; : &quot;http://www.cfsph.iastate.edu/Factsheets/pdfs/plague.pdf&quot;, &quot;http...www.cdc.gov.mmwr.PDF.wk.mm6153.pdf&quot; : &quot;&quot;, &quot;http...en.wikipedia.org.wiki.Human_mortality_from_H5N1&quot; : &quot;&quot;, &quot;individual.links.given.in.hidden.columns.to.right..where.different&quot; : &quot;&quot;, &quot;X.6&quot; : &quot;&quot;, &quot;X.7&quot; : &quot;&quot;, &quot;infectious.dose.1&quot; : &quot;http://microbewiki.kenyon.edu/index.php/Yersinia_pseudotuberculosis_infection&quot;, &quot;X.8&quot; : &quot;&quot;, &quot;X.9&quot; : &quot;&quot; } ]</td>
+      </tr>
+</table>
+
+  </div>
+
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="http://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="http://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.11531s from github-fe118-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-9643b0378c6bcb216adcdaaaa703eed77aa239aaf1c2ae44cadb2fb5099ec172.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-d967f968a967d73050b6f00df5ceb05917ff8f3c7f3803e832bee5eda8037365.js"></script>
+      
+      
+
+  </body>
+</html>
+
