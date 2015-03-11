@@ -1,0 +1,48 @@
+---
+title: "Midterm"
+author: "Sang-Hee Min"
+date: "March 11, 2015"
+output: html_document
+---
+
+
+```{r}
+##Set working directory:
+getwd()
+setwd('~/data-viz/')
+
+data(airquality)
+
+### Write a function that creates a time series 
+##must accept at least two input arguments
+##and return either an object or plot it directly
+##Due at 1:50pm - submit as a pull request
+
+
+##Preview data:
+head(airquality)
+
+str(airquality)
+
+## Remove NA values from data
+airquality <- na.omit(airquality)
+
+## Turn Month and Day columns into a single Date column
+??date
+
+#airquality_merged <- merge(airquality, Ozone Temperature, by "")
+
+## independent variable: Date
+## dependent variables: Temperature, Ozone
+??date
+
+library(ggplot2)
+library(scales)
+
+## Plot the timeseries:
+#plot <- ggplot(airquality, x=date, y=Ozone, group=Ozone, colour=Ozone)
+#plot2 <-- ggplot(airquality, x=date, y=Temperature, group=Temperature, colour=Temperature)
+
+#print(plot)
+#print(plot2)
+```
